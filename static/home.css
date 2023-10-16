@@ -28,6 +28,7 @@ input[type="email"] {
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+
 button {
     padding: 10px 20px;
     background-color: #007BFF;
@@ -35,4 +36,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
 }
+
+button:hover{
+    opacity: 0.5;
+}
+
+.mensagem-sucesso {
+    color: green;
+    font-size: 16px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
